@@ -1,0 +1,159 @@
+
+
+
+
+#logo{
+ position: relative;
+ bottom: 40px;
+ 
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F6EEE5;
+  
+}
+
+header {
+  background-color: #B87C41;
+  padding: 30px;
+  height: 40px;
+
+ 
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #4d2a04;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 100px;
+  
+}
+
+nav li {
+  margin-right: 35px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #5E3221;
+}
+
+main {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+article {
+  margin-bottom: 40px;
+  width: 600px;
+  height: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #D9A77B;
+}
+
+article:hover {
+  box-shadow: 0 6px 12px rgba(214, 86, 0, 0.308);
+}
+
+article img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  border-radius: 10px 10px 0 0;
+
+}
+
+article h2 {
+  margin: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+article p {
+  margin: 20px;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #ffffff;
+
+}
+
+article a {
+  display: block;
+  margin: 20px;
+  font-size: 16px;
+  color: #be5c00;
+  text-align: right;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+article a:hover {
+  color: #333;
+}
+
+.layoutartikel {
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 10px;
+  background-color: #D9A77B;
+  display: flex;
+  justify-content: center;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 3%;
+  color: #fff;
+  font-size: 17px;
+}
+
+.bønnen {
+  max-width: 100%;
+  
+  
+}
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+footer a:hover {
+  color: #e28101;
+}
